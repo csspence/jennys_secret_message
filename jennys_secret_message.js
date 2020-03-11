@@ -5,8 +5,6 @@ Jenny has written a function that returns a greeting for a user. However, she's 
 Can you help her?
 */
 
-function greet(name){
-  return "Hello, " + name + "!";
-  if(name === "Johnny")
-    return "Hello, my love!";
+const greet = (name) => {
+  return (name === "Johnny" ? "Hello, my love!" : "Hello, " + name + "!");
 }
